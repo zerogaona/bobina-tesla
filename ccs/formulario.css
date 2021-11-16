@@ -1,0 +1,37 @@
+.tituloForm{
+    background: rgba(80, 200, 200, 0.8);
+    margin-top: 30px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: #FFF;
+}
+
+.formul{
+    
+    padding:10px;
+    background: rgba(80, 200, 200, 0.3)
+    
+}
+
+.tabla1 tr{
+    background: rgba(2, 84, 99,1);
+    color: #FFF;
+}
+
+.tabla1 tr:hover{
+    background: rgba(2, 84, 99,0.5);
+    color: #FFF;
+}
+
+.plano{
+    text-align: center;
+    border: 1px solid #000;
+    background: rgba(80, 200, 200, 0.3);
+}
+
+.plano h4{
+    margin-top: 5px;
+    background: rgba(33, 34, 34, 0.8);
+    padding: 10px;
+    color: #FFF;
+}

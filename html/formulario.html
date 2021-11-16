@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../ccs/formulario.css">
+    <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
+
+    <title>Formulario</title>
+</head>
+<body>
+    <section class="container">
+        <div class="row">
+            <div class="col tituloForm">
+                <h1>Formulario de contizacion</h1>
+            </div>
+        </div>
+        <div class="row formul">
+            <div class="col">
+                <form action="">
+                    <div class="form-group row">
+                        <label for="" class="col-4 col-form-label">Nombre</label>
+                        <input id="nombre" type="text" class="form-control col-8" placeholder="Ingrese su nombre">
+                    </div>
+                    <div class="form-group row">
+                        <label for="" class="col-4 col-form-label">Documento</label>
+                        <input id="Document" type="text" class="form-control col-8" placeholder="Ingrese su documento">
+                    </div>
+                    
+                    <div class="form-group row">
+                        <input type="button" class="btn btn-success col-12" onclick="ejecutar();" value="Enviar"/>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="table-responsive">
+                <table class="table table-bordered tabla1">
+                    <tr class="primary">
+                        <th>Nombre</th>
+                        <th>Documento</th>
+                        <th>Material</th>
+                        <th>Cantidad</th>gbvb
+                        <th>Precio</th>
+                        <th>Descripcion</th>
+                    </tr>
+                    <tr>
+                        <td id="nombre">No especificado</td>
+                        <td id="documento">No especificado</td>
+                        <td id="mat1">No especificado</td>
+                        <td id="cant">No especificado</td>
+                        <td id="precio">No especificado</td>
+                        <td id="desc">No especificado</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="row plano">
+            <div class="col">
+                <h4>Posible estructura de su cableado</h4>
+                <img src="../img/plano.PNG" alt="plano">
+            </div>
+        </div>
+    </section>
+    
+    <script type="text/javascript" src="../js/codCotizacion.js"></script>
+</body>
+</html>

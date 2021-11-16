@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="ccs/estilos.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <ion-icon src="/path/to/external/file.svg"></ion-icon>
+    <title>Inicio</title>
+</head>
+<body>
+   
+    <div></div>
+    <section class="container">
+        <div class="row titulo_logo">
+            <div class="col titulo" >
+                <nav class="navbar navbar-dark bg-dark"  style="color: rgb(171, 170, 235);">
+                    <form class="form-inline" >
+                        <h1>Bobina De Tesla</h1>
+                    </form>
+                  </nav>
+                
+            </div>
+        </div>
+        <div class="row text2">
+            <div class="colvision">  
+                <h3>Hola</h3>
+                <h4>Bienvenido a la forma mas dinamica de conocer sobre la bobina de Tesla.</h4>
+                <h4>Queremos invitarte a que navegues por esta web para conocer todos los detalles necesarios para saber de su funcionamiento
+                    y proceso de elaboracion, pero antes puedes saber un poco mas con el video que encontraras a continuacion.
+                </h4>
+
+            </div>
+        </div>
+        <div class="row text1">
+
+            <div class="col">
+                
+                    <video src="img/VideoProyecto.mp4"></video>
+               
+                
+            </div>
+            
+        </div>
+
+        <div class="row text2">
+            <div class="colvision">  
+                <h3>Muy bien!!!</h3>
+                <h4>Ahora que estas familiarizado con la bobina de Tesla intenta lo siguiente.</h4>
+                <h4>En esta web encontraras diferentes opciones donde podras saber cuales son los materiales necesarios para su elaboracion,
+                    una guia paso a paso para su construccion y el funcionamiento explicado de la bobina de Tesla.
+                </h4>
+                <h5>Vamos intentalo...</h5>
+
+            </div>
+        </div>
+        
+        <div class="row">
+			<div class="col">
+
+                <nav class="navbar navbar-light bg-light">
+                    <form class="form-inline">
+                        <ion-icon name="hammer-outline"></ion-icon>
+                      <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#exampleModalCenter2">Materiales</button>
+                      <button class="btn btn-success" type="button" data-toggle="modal" data-target="#exampleModalCenter3">Funcionamiento</button>
+                      <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModalCenter">
+                        Paso a Paso
+                      </button>
+                    </form>
+                  </nav>
+
+                   <!-- Modal -->
+                   <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLongTitle">Materiales</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/funcion.jpg" alt="vision" style="width: 100%; height: 200px;">
+                            <h2 id="vis">Descripcion</h2>
+                <em>
+                    La bobina de Tesla es un generador  electromagnético que produce descargas  de alta tensión y de elevadas frecuencias
+                    (radiofrecuencias) con efectos perceptibles tales como su capacidad para ionizar  el aire o gas a una distancia definida 
+                    de  ésta de forma que puede hacer que se en cienda una bombilla
+
+                </em>
+                <h2>Funcionamiento</h2>
+                <em>
+                    El funcionamiento de la bobina de Tesla se puede describir como sigue: 
+                    Primeramente la corriente pasa por el led indicando  que el circuito funciona. Luego la corriente  pasa por el transistor 
+                    que funciona como un  oscilador generando una alta frecuencia en  la bobina primaria, la cual a su vez entra en  resonancia con la bobina secundaria.
+                    Al pasar por la bobina primaria una corriente, ésta genera un campo magnético  sobre la bobina secundaria y que gracias al  
+                    oscilador este campo magnético también oscilara. El campo magnético alterno producido en la bobina primaria genera una  
+                    alta tensión también alterna en la bobina secundaria. En esta última también se generara un campo magnético, lo cual se puede  
+                    ver por sus efectos en el medio. Por ejemplo al acercar un tubo fluorescente o un foco de bajo consumo.
+                </em>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                         
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLongTitle">Materiales</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                            <h2 id="mis">Resumen del proyecto</h2>
+                            <em>
+                                Se quiere implementar la conocida Bobina de tesla, para la cual se requierieron algunos materiales, estos son:
+                            </em>
+                            <li>Una pila de 9V</li>
+                            <li>Conector de pila</li>
+                            <li>Transistor 2N2222</li>
+                            <li>Cable magneto de 1/2 mm</li>
+                            <li>Tubo PVC de 8cm * 2 cm aproxmiadamente</li>
+                            <li>Cable de 1mm de grosor</li>
+                            <li>Resistencia de 22Kh minimo</li>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                         
+                        </div>
+                      </div>
+                    </div>
+                </div>
+             
+
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLongTitle">Pasos para hacer Bobina de Tesla</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="carousel slide" id="banner" data-ride="carousel">
+					
+                                <ol class="carousel-indicators">
+                                    <li data-target="#banner" data-slid-to="0" class="active"></li>
+                                    <li data-target="#banner" data-slid-to="1"></li>
+                                    <li data-target="#banner" data-slid-to="2"></li>
+                                    <li data-target="#banner" data-slid-to="3"></li>
+                                    <li data-target="#banner" data-slid-to="4"></li>
+                                    <li data-target="#banner" data-slid-to="5"></li>
+                                    <li data-target="#banner" data-slid-to="6"></li>
+                                    <li data-target="#banner" data-slid-to="7"></li>
+                                    <li data-target="#banner" data-slid-to="8"></li>
+                                    <li data-target="#banner" data-slid-to="9"></li>
+                                    <li data-target="#banner" data-slid-to="10"></li>
+                                    <li data-target="#banner" data-slid-to="11"></li>
+                                    <li data-target="#banner" data-slid-to="12"></li>
+                                </ol>	
+            
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+            
+                                        <div class="titulo-img carousel-caption d-block">
+                                            <h3 id="bannerA">Bobina de tesla</h3>
+                                            <p id="bannerPA">Estado ideal final del proyecto</p>
+                                        </div>
+            
+                                        <img src="img/final.PNG" alt="imagen1" width="100%"; height="400px">
+                                    </div>
+                                    <div class="carousel-item">
+            
+                                        <div class="titulo-img carousel-caption d-block">
+                                            <h3 id="bannerB">Paso 1</h3>
+                                            <p id="bannerPB">Enrrollamos alambra magneto de 1/2 mm a un tubo de PVC de manera que quede como en la imagen</p>
+                                        </div>
+            
+                                        <img src="img/paso1.PNG" alt="imagen2" width="100%"; height="400px">
+                                    </div>
+                                    <div class="carousel-item">
+                                        
+                                        <div class="titulo-img carousel-caption d-block">
+                                            
+                                            <h3 id="bannerC">Paso 2</h3>
+                                            <p id="bannerPC">Pegamos el interruptor, transistor y el tubo de PVC a la base sobre la cual se va a trabajar</p>
+            
+                                        </div>
+            
+                                        <img src="img/paso2.PNG" alt="imagen4" width="100%"; height="400px">
+                                    </div>
+                                    <div class="carousel-item">
+                                        
+                                        <div class="titulo-img carousel-caption d-block">
+                                            
+                                            <h3 id="bannerC">Paso 3</h3>
+                                            <p id="bannerPC">Soldamos la resistencia de aproxmiadamente 22KH a la base del transistor</p>
+            
+                                        </div>
+            
+                                        <img src="img/paso3.PNG" alt="imagen4" width="100%"; height="400px">
+                                    </div>
+                                    <div class="carousel-item">
+                                        
+                                        <div class="titulo-img carousel-caption d-block">
+                                            
+                                            <h3 id="bannerC">Paso 4</h3>
+                                            <p id="bannerPC">Tambien soldamos a la base del transistor el alambre que esta envuelto al tubo PVC</p>
+            
+                                        </div>
+            
+                                        <img src="img/paso4.PNG" alt="imagen4" width="100%"; height="400px">
+                                    </div>
+                                    <div class="carousel-item">
+            
+                                        <div class="titulo-img carousel-caption d-block">
+                                            <h3 id="bannerB">Paso 5</h3>
+                                            <p id="bannerPB">Envolvemos con dos vueltas  sobre la bobina un cable de 1 mm de grosor</p>
+                                        </div>
+            
+                                        <img src="img/paso5.PNG" alt="imagen2" width="100%"; height="400px">
+                                    </div>
+                                    <div class="carousel-item">
+            
+                                        <div class="titulo-img carousel-caption d-block">
+                                            <h3 id="bannerB">Paso 6</h3>
+                                            <p id="bannerPB">Soldamos una de las partes del al colector del transistor</p>
+                                        </div>
+            
+                                        <img src="img/paso6.PNG" alt="imagen2" width="100%"; height="400px">
+                                    </div>
+                                    <div class="carousel-item">
+            
+                                        <div class="titulo-img carousel-caption d-block">
+                                            <h3 id="bannerB">Paso 7</h3>
+                                            <p id="bannerPB">Conectamos la otra  parte a  la resistencia</p>
+                                        </div>
+            
+                                        <img src="img/paso7.PNG" alt="imagen2" width="100%"; height="400px">
+                                    </div>
+                                    <div class="carousel-item">
+            
+                                        <div class="titulo-img carousel-caption d-block">
+                                            <h3 id="bannerB">Paso 8</h3>
+                                            <p id="bannerPB">Conectamos la resistencia a una de las patas del interruptor</p>
+                                        </div>
+            
+                                        <img src="img/paso8.PNG" alt="imagen2" width="100%"; height="400px">
+                                    </div>
+                                    <div class="carousel-item">
+            
+                                        <div class="titulo-img carousel-caption d-block">
+                                            <h3 id="bannerB">Paso 9</h3>
+                                            <p id="bannerPB">Soldamos el conector de la bateria.</p>
+                                        </div>
+            
+                                        <img src="img/paso9.PNG" alt="imagen2" width="100%"; height="400px">
+                                    </div>
+                                    <div class="carousel-item">
+            
+                                        <div class="titulo-img carousel-caption d-block">
+                                            <h3 id="bannerB">Paso 10</h3>
+                                            <p id="bannerPB">El cable negro del conector de bateria lo conectamos al Emisor del transistor</p>
+                                        </div>
+            
+                                        <img src="img/paso10.PNG" alt="imagen2" width="100%"; height="400px">
+                                    </div>
+                                    <div class="carousel-item">
+            
+                                        <div class="titulo-img carousel-caption d-block">
+                                            <h3 id="bannerB">Paso 11</h3>
+                                            <p id="bannerPB">El cable rojo lo conectamos a la pata central del interruptor</p>
+                                        </div>
+            
+                                        <img src="img/paso11.PNG" alt="imagen2" width="100%"; height="400px">
+                                    </div>
+                                    <div class="carousel-item">
+            
+                                        <div class="titulo-img carousel-caption d-block">
+                                            <h3 id="bannerB">Paso Final</h3>
+                                            <p id="bannerPB">Conectamos la bateria, encendemos el interruptor y acercamos una bombilla halogena.</p>
+                                        </div>
+            
+                                        <img src="img/ultimoPaso.PNG" alt="imagen2" width="100%"; height="400px">
+                                    </div>
+            
+                                </div>
+                                <a href="#banner" class="carousel-control-prev" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Anterior</span>
+                                </a>
+            
+                                <a href="#banner" class="carousel-control-next" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Siguiente</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                
+                  
+				
+				
+			</div>
+        </div>
+        
+        
+    
+        <footer class="row">
+            <div class="col">
+                <h2>Fisica Electrica y laboratorio</h2>
+                <h3>Ingenieria de sistemas</h3>
+                <h4>Pablo Andres Gaona</h4>
+            </div>
+        </footer>
+    </section>
+    <script src="bootstrap/js/jquery-3.3.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>

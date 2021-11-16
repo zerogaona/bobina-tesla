@@ -1,0 +1,26 @@
+.titulo1{
+    background: rgba(2, 84, 99,1);
+    color: #FFF;
+    text-align: center;
+}
+
+iframe{
+    width: 100%;
+    height: 500px;
+}
+
+.herramientas{
+    background: rgb(196, 232, 238);
+}
+
+.linkCot{
+    text-align: center;
+}
+
+
+.linkCot .linkFormul{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: rgb(2, 132, 175);
+    
+}
